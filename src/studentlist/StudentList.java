@@ -5,7 +5,7 @@
 package studentlist;
 
 /**MONDAY
- *
+ *Tuesday
  * @author harma
  */
 public class StudentList {
