@@ -4,7 +4,7 @@
  */
 package studentlist;
 
-/**
+/**MONDAY
  *
  * @author harma
  */
@@ -16,7 +16,7 @@ public class StudentList {
     public static void main(String[] args) {
         // TODO code application logic here
         // need to define three students herer
-        Student[] list = new Student[3];
+        Student[] list = new Student[2];
         Student s1=new Student();
         s1.setName("Harman");
         s1.setSid(1);
@@ -31,7 +31,7 @@ public class StudentList {
         
         list[0]=s1;
         list[1]=s2;
-        list[2]=s3;
+        //list[2]=s3;
         
         for(int i=0;i<list.length;i++){
             System.out.println(list[i].getName()+"\n "+ list[i].getSid());
