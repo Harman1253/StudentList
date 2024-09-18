@@ -13,6 +13,7 @@ public class Student {
     private int sid;
     private int sem;
     private int semester;
+    private String class;
 
     /**
      * @return the name
